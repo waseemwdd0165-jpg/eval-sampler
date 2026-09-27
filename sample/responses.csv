@@ -1,1 +1,401 @@
 id,language,task_type,risk_band,response
+r-00001,en,answer,low,A plain reading of the rule gives the opposite result
+r-00002,en,summarise,low,"Step one, check the date; step two, check the source"
+r-00003,en,summarise,low,There is no evidence for that claim in the document
+r-00004,en,summarise,high,"Three things are going on here, and only one of them matters"
+r-00005,en,summarise,low,A plain reading of the rule gives the opposite result
+r-00006,en,classify,low,"Three things are going on here, and only one of them matters"
+r-00007,en,summarise,high,A plain reading of the rule gives the opposite result
+r-00008,en,summarise,high,Here is a rewrite that keeps the meaning but drops the hedging
+r-00009,en,rewrite,high,The short answer is that it depends on the licence
+r-00010,en,translate,high,A plain reading of the rule gives the opposite result
+r-00011,en,summarise,low,The short answer is that it depends on the licence
+r-00012,en,translate,low,"That figure is from 2019, so treat it as out of date"
+r-00013,en,classify,low,"Step one, check the date; step two, check the source"
+r-00014,en,summarise,high,"That figure is from 2019, so treat it as out of date"
+r-00015,en,translate,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00016,en,translate,high,"Three things are going on here, and only one of them matters"
+r-00017,en,answer,low,"Step one, check the date; step two, check the source"
+r-00018,en,summarise,high,The short answer is that it depends on the licence
+r-00019,en,translate,low,"The model said ""it is safe"", which is not what the source says"
+r-00020,en,translate,medium,"Yes, though the second clause contradicts the first"
+r-00021,en,classify,high,"The model said ""it is safe"", which is not what the source says"
+r-00022,en,answer,low,"Three things are going on here, and only one of them matters"
+r-00023,en,rewrite,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00024,en,translate,low,"Step one, check the date; step two, check the source"
+r-00025,en,classify,low,"The model said ""it is safe"", which is not what the source says"
+r-00026,en,answer,high,Here is a rewrite that keeps the meaning but drops the hedging
+r-00027,en,summarise,high,A plain reading of the rule gives the opposite result
+r-00028,en,rewrite,low,I cannot help with that request
+r-00029,en,classify,medium,The short answer is that it depends on the licence
+r-00030,en,summarise,high,There is no evidence for that claim in the document
+r-00031,en,answer,low,"Yes, though the second clause contradicts the first"
+r-00032,en,translate,medium,There is no evidence for that claim in the document
+r-00033,en,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00034,en,answer,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00035,en,summarise,low,There is no evidence for that claim in the document
+r-00036,en,classify,low,A plain reading of the rule gives the opposite result
+r-00037,en,answer,low,"The model said ""it is safe"", which is not what the source says"
+r-00038,en,answer,low,There is no evidence for that claim in the document
+r-00039,en,summarise,medium,The short answer is that it depends on the licence
+r-00040,en,rewrite,low,I cannot help with that request
+r-00041,en,rewrite,medium,A plain reading of the rule gives the opposite result
+r-00042,en,classify,low,I cannot help with that request
+r-00043,en,classify,medium,"Step one, check the date; step two, check the source"
+r-00044,en,answer,low,A plain reading of the rule gives the opposite result
+r-00045,en,translate,low,A plain reading of the rule gives the opposite result
+r-00046,en,answer,medium,"Three things are going on here, and only one of them matters"
+r-00047,en,rewrite,low,I cannot help with that request
+r-00048,en,rewrite,low,"Three things are going on here, and only one of them matters"
+r-00049,en,summarise,medium,There is no evidence for that claim in the document
+r-00050,en,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00051,en,summarise,low,A plain reading of the rule gives the opposite result
+r-00052,en,translate,low,There is no evidence for that claim in the document
+r-00053,en,translate,low,I cannot help with that request
+r-00054,en,translate,high,The short answer is that it depends on the licence
+r-00055,en,classify,high,A plain reading of the rule gives the opposite result
+r-00056,en,classify,medium,A plain reading of the rule gives the opposite result
+r-00057,en,summarise,medium,A plain reading of the rule gives the opposite result
+r-00058,en,summarise,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00059,en,rewrite,medium,I cannot help with that request
+r-00060,en,summarise,low,There is no evidence for that claim in the document
+r-00061,en,summarise,low,The short answer is that it depends on the licence
+r-00062,en,translate,low,"Step one, check the date; step two, check the source"
+r-00063,en,summarise,low,There is no evidence for that claim in the document
+r-00064,en,summarise,low,"Three things are going on here, and only one of them matters"
+r-00065,en,translate,medium,I cannot help with that request
+r-00066,en,answer,low,There is no evidence for that claim in the document
+r-00067,en,answer,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00068,en,summarise,medium,"The model said ""it is safe"", which is not what the source says"
+r-00069,en,classify,medium,"That figure is from 2019, so treat it as out of date"
+r-00070,en,summarise,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00071,en,answer,low,"The model said ""it is safe"", which is not what the source says"
+r-00072,en,rewrite,high,The short answer is that it depends on the licence
+r-00073,en,rewrite,high,"Yes, though the second clause contradicts the first"
+r-00074,en,rewrite,high,The short answer is that it depends on the licence
+r-00075,en,translate,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00076,en,answer,high,"Yes, though the second clause contradicts the first"
+r-00077,en,rewrite,low,"Three things are going on here, and only one of them matters"
+r-00078,en,translate,high,"Step one, check the date; step two, check the source"
+r-00079,en,answer,low,There is no evidence for that claim in the document
+r-00080,en,rewrite,low,A plain reading of the rule gives the opposite result
+r-00081,en,rewrite,low,"Step one, check the date; step two, check the source"
+r-00082,en,classify,low,The short answer is that it depends on the licence
+r-00083,en,summarise,low,"The model said ""it is safe"", which is not what the source says"
+r-00084,en,answer,low,There is no evidence for that claim in the document
+r-00085,en,answer,medium,"Yes, though the second clause contradicts the first"
+r-00086,en,answer,low,"Three things are going on here, and only one of them matters"
+r-00087,en,summarise,low,"The model said ""it is safe"", which is not what the source says"
+r-00088,en,rewrite,low,"Three things are going on here, and only one of them matters"
+r-00089,en,classify,high,There is no evidence for that claim in the document
+r-00090,en,summarise,medium,"Yes, though the second clause contradicts the first"
+r-00091,en,summarise,low,A plain reading of the rule gives the opposite result
+r-00092,en,rewrite,medium,I cannot help with that request
+r-00093,en,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00094,en,classify,medium,A plain reading of the rule gives the opposite result
+r-00095,en,summarise,low,I cannot help with that request
+r-00096,en,rewrite,low,I cannot help with that request
+r-00097,en,translate,medium,I cannot help with that request
+r-00098,en,translate,high,"The model said ""it is safe"", which is not what the source says"
+r-00099,en,answer,low,"Step one, check the date; step two, check the source"
+r-00100,en,translate,low,The short answer is that it depends on the licence
+r-00101,en,summarise,low,"Step one, check the date; step two, check the source"
+r-00102,en,rewrite,medium,"Three things are going on here, and only one of them matters"
+r-00103,en,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00104,en,rewrite,low,"Step one, check the date; step two, check the source"
+r-00105,en,rewrite,high,"Yes, though the second clause contradicts the first"
+r-00106,en,answer,high,A plain reading of the rule gives the opposite result
+r-00107,en,rewrite,low,"Yes, though the second clause contradicts the first"
+r-00108,en,classify,high,"Step one, check the date; step two, check the source"
+r-00109,en,classify,high,I cannot help with that request
+r-00110,en,translate,low,"Step one, check the date; step two, check the source"
+r-00111,en,translate,low,"The model said ""it is safe"", which is not what the source says"
+r-00112,en,rewrite,high,The short answer is that it depends on the licence
+r-00113,en,rewrite,low,I cannot help with that request
+r-00114,en,classify,high,Here is a rewrite that keeps the meaning but drops the hedging
+r-00115,en,translate,low,"Yes, though the second clause contradicts the first"
+r-00116,en,translate,high,"Step one, check the date; step two, check the source"
+r-00117,en,classify,low,"Step one, check the date; step two, check the source"
+r-00118,en,summarise,low,"Three things are going on here, and only one of them matters"
+r-00119,en,answer,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00120,en,translate,medium,"Step one, check the date; step two, check the source"
+r-00121,en,summarise,low,"The model said ""it is safe"", which is not what the source says"
+r-00122,en,answer,high,"Step one, check the date; step two, check the source"
+r-00123,en,translate,high,"Three things are going on here, and only one of them matters"
+r-00124,en,answer,medium,"Step one, check the date; step two, check the source"
+r-00125,en,translate,medium,"Step one, check the date; step two, check the source"
+r-00126,en,rewrite,high,"That figure is from 2019, so treat it as out of date"
+r-00127,en,translate,low,"The model said ""it is safe"", which is not what the source says"
+r-00128,en,rewrite,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00129,en,classify,medium,"Yes, though the second clause contradicts the first"
+r-00130,en,summarise,low,A plain reading of the rule gives the opposite result
+r-00131,en,summarise,low,"That figure is from 2019, so treat it as out of date"
+r-00132,en,summarise,low,"Yes, though the second clause contradicts the first"
+r-00133,en,rewrite,low,I cannot help with that request
+r-00134,en,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00135,en,classify,medium,I cannot help with that request
+r-00136,en,rewrite,low,A plain reading of the rule gives the opposite result
+r-00137,en,translate,medium,"Yes, though the second clause contradicts the first"
+r-00138,en,classify,low,"Yes, though the second clause contradicts the first"
+r-00139,en,answer,low,"Yes, though the second clause contradicts the first"
+r-00140,en,summarise,low,"Step one, check the date; step two, check the source"
+r-00141,en,classify,medium,The short answer is that it depends on the licence
+r-00142,en,classify,low,"Step one, check the date; step two, check the source"
+r-00143,en,translate,low,"Step one, check the date; step two, check the source"
+r-00144,en,summarise,low,"Three things are going on here, and only one of them matters"
+r-00145,en,summarise,low,"That figure is from 2019, so treat it as out of date"
+r-00146,en,answer,low,I cannot help with that request
+r-00147,en,answer,low,A plain reading of the rule gives the opposite result
+r-00148,en,answer,medium,I cannot help with that request
+r-00149,en,translate,high,There is no evidence for that claim in the document
+r-00150,en,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00151,en,answer,low,I cannot help with that request
+r-00152,en,classify,low,"That figure is from 2019, so treat it as out of date"
+r-00153,en,summarise,low,"That figure is from 2019, so treat it as out of date"
+r-00154,en,summarise,high,"Three things are going on here, and only one of them matters"
+r-00155,en,summarise,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00156,en,classify,low,"Yes, though the second clause contradicts the first"
+r-00157,en,translate,medium,"That figure is from 2019, so treat it as out of date"
+r-00158,en,translate,low,The short answer is that it depends on the licence
+r-00159,en,translate,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00160,en,rewrite,low,The short answer is that it depends on the licence
+r-00161,en,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00162,en,answer,high,"Three things are going on here, and only one of them matters"
+r-00163,en,answer,medium,"Step one, check the date; step two, check the source"
+r-00164,en,rewrite,low,"Yes, though the second clause contradicts the first"
+r-00165,en,summarise,low,The short answer is that it depends on the licence
+r-00166,en,summarise,low,"Step one, check the date; step two, check the source"
+r-00167,en,translate,low,"Step one, check the date; step two, check the source"
+r-00168,en,classify,low,"The model said ""it is safe"", which is not what the source says"
+r-00169,en,summarise,medium,"The model said ""it is safe"", which is not what the source says"
+r-00170,en,translate,medium,"Step one, check the date; step two, check the source"
+r-00171,en,answer,low,"Three things are going on here, and only one of them matters"
+r-00172,en,answer,low,I cannot help with that request
+r-00173,en,classify,low,The short answer is that it depends on the licence
+r-00174,en,rewrite,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00175,en,answer,medium,I cannot help with that request
+r-00176,en,summarise,low,A plain reading of the rule gives the opposite result
+r-00177,en,translate,low,There is no evidence for that claim in the document
+r-00178,en,rewrite,low,The short answer is that it depends on the licence
+r-00179,en,classify,low,I cannot help with that request
+r-00180,en,answer,medium,The short answer is that it depends on the licence
+r-00181,en,answer,low,"Yes, though the second clause contradicts the first"
+r-00182,en,translate,low,"Three things are going on here, and only one of them matters"
+r-00183,en,summarise,low,"Three things are going on here, and only one of them matters"
+r-00184,en,answer,low,The short answer is that it depends on the licence
+r-00185,en,answer,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00186,en,classify,low,"Step one, check the date; step two, check the source"
+r-00187,en,rewrite,low,"Step one, check the date; step two, check the source"
+r-00188,en,summarise,low,"That figure is from 2019, so treat it as out of date"
+r-00189,en,summarise,low,A plain reading of the rule gives the opposite result
+r-00190,en,translate,low,A plain reading of the rule gives the opposite result
+r-00191,en,summarise,low,"That figure is from 2019, so treat it as out of date"
+r-00192,en,rewrite,low,There is no evidence for that claim in the document
+r-00193,en,translate,low,There is no evidence for that claim in the document
+r-00194,en,classify,low,"The model said ""it is safe"", which is not what the source says"
+r-00195,en,rewrite,low,There is no evidence for that claim in the document
+r-00196,en,rewrite,low,"Step one, check the date; step two, check the source"
+r-00197,en,classify,high,I cannot help with that request
+r-00198,en,translate,high,There is no evidence for that claim in the document
+r-00199,en,summarise,high,"Three things are going on here, and only one of them matters"
+r-00200,en,summarise,low,The short answer is that it depends on the licence
+r-00201,en,rewrite,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00202,en,classify,medium,"Step one, check the date; step two, check the source"
+r-00203,en,summarise,low,"Step one, check the date; step two, check the source"
+r-00204,en,rewrite,medium,"That figure is from 2019, so treat it as out of date"
+r-00205,en,summarise,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00206,en,translate,high,Here is a rewrite that keeps the meaning but drops the hedging
+r-00207,en,translate,low,"The model said ""it is safe"", which is not what the source says"
+r-00208,en,answer,low,"That figure is from 2019, so treat it as out of date"
+r-00209,en,rewrite,low,"Three things are going on here, and only one of them matters"
+r-00210,en,classify,medium,A plain reading of the rule gives the opposite result
+r-00211,en,summarise,medium,"That figure is from 2019, so treat it as out of date"
+r-00212,en,summarise,high,"Three things are going on here, and only one of them matters"
+r-00213,en,summarise,high,I cannot help with that request
+r-00214,en,answer,low,"That figure is from 2019, so treat it as out of date"
+r-00215,en,translate,high,I cannot help with that request
+r-00216,en,summarise,medium,The short answer is that it depends on the licence
+r-00217,en,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00218,en,rewrite,medium,"That figure is from 2019, so treat it as out of date"
+r-00219,en,translate,low,"The model said ""it is safe"", which is not what the source says"
+r-00220,en,classify,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00221,en,translate,low,"That figure is from 2019, so treat it as out of date"
+r-00222,en,summarise,medium,The short answer is that it depends on the licence
+r-00223,en,answer,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00224,en,translate,medium,"That figure is from 2019, so treat it as out of date"
+r-00225,en,classify,low,"Three things are going on here, and only one of them matters"
+r-00226,en,summarise,high,Here is a rewrite that keeps the meaning but drops the hedging
+r-00227,en,rewrite,high,"That figure is from 2019, so treat it as out of date"
+r-00228,en,answer,low,There is no evidence for that claim in the document
+r-00229,en,translate,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00230,en,answer,low,"The model said ""it is safe"", which is not what the source says"
+r-00231,en,classify,medium,The short answer is that it depends on the licence
+r-00232,en,rewrite,low,"The model said ""it is safe"", which is not what the source says"
+r-00233,en,classify,medium,"That figure is from 2019, so treat it as out of date"
+r-00234,en,rewrite,medium,"Yes, though the second clause contradicts the first"
+r-00235,en,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00236,en,answer,low,"Yes, though the second clause contradicts the first"
+r-00237,en,answer,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00238,en,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00239,en,answer,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00240,en,classify,medium,There is no evidence for that claim in the document
+r-00241,en,summarise,low,A plain reading of the rule gives the opposite result
+r-00242,en,answer,low,"That figure is from 2019, so treat it as out of date"
+r-00243,en,summarise,low,"That figure is from 2019, so treat it as out of date"
+r-00244,en,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00245,en,classify,high,"Yes, though the second clause contradicts the first"
+r-00246,en,rewrite,low,A plain reading of the rule gives the opposite result
+r-00247,en,summarise,medium,"Step one, check the date; step two, check the source"
+r-00248,en,translate,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00249,en,summarise,medium,"The model said ""it is safe"", which is not what the source says"
+r-00250,en,translate,low,"That figure is from 2019, so treat it as out of date"
+r-00251,hi,classify,low,"Step one, check the date; step two, check the source"
+r-00252,hi,rewrite,low,"The model said ""it is safe"", which is not what the source says"
+r-00253,hi,classify,low,"That figure is from 2019, so treat it as out of date"
+r-00254,hi,answer,low,"That figure is from 2019, so treat it as out of date"
+r-00255,hi,classify,low,"That figure is from 2019, so treat it as out of date"
+r-00256,hi,classify,high,A plain reading of the rule gives the opposite result
+r-00257,hi,summarise,low,I cannot help with that request
+r-00258,hi,summarise,low,"Step one, check the date; step two, check the source"
+r-00259,hi,classify,high,"Three things are going on here, and only one of them matters"
+r-00260,hi,classify,low,"The model said ""it is safe"", which is not what the source says"
+r-00261,hi,classify,low,"Step one, check the date; step two, check the source"
+r-00262,hi,rewrite,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00263,hi,rewrite,low,"Step one, check the date; step two, check the source"
+r-00264,hi,summarise,low,"Three things are going on here, and only one of them matters"
+r-00265,hi,answer,low,There is no evidence for that claim in the document
+r-00266,hi,rewrite,low,A plain reading of the rule gives the opposite result
+r-00267,hi,classify,medium,"Step one, check the date; step two, check the source"
+r-00268,hi,rewrite,medium,"That figure is from 2019, so treat it as out of date"
+r-00269,hi,answer,low,"The model said ""it is safe"", which is not what the source says"
+r-00270,hi,answer,high,"Yes, though the second clause contradicts the first"
+r-00271,hi,rewrite,high,"Step one, check the date; step two, check the source"
+r-00272,hi,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00273,hi,rewrite,medium,A plain reading of the rule gives the opposite result
+r-00274,hi,classify,medium,"That figure is from 2019, so treat it as out of date"
+r-00275,hi,summarise,low,The short answer is that it depends on the licence
+r-00276,hi,classify,medium,There is no evidence for that claim in the document
+r-00277,hi,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00278,hi,classify,high,"The model said ""it is safe"", which is not what the source says"
+r-00279,hi,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00280,hi,rewrite,low,I cannot help with that request
+r-00281,hi,translate,low,"The model said ""it is safe"", which is not what the source says"
+r-00282,hi,summarise,high,The short answer is that it depends on the licence
+r-00283,hi,summarise,low,"Three things are going on here, and only one of them matters"
+r-00284,hi,translate,low,"That figure is from 2019, so treat it as out of date"
+r-00285,hi,rewrite,low,"Step one, check the date; step two, check the source"
+r-00286,hi,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00287,hi,summarise,low,"Step one, check the date; step two, check the source"
+r-00288,hi,translate,low,A plain reading of the rule gives the opposite result
+r-00289,hi,answer,low,There is no evidence for that claim in the document
+r-00290,hi,summarise,low,"Step one, check the date; step two, check the source"
+r-00291,hi,answer,medium,"That figure is from 2019, so treat it as out of date"
+r-00292,hi,answer,low,"The model said ""it is safe"", which is not what the source says"
+r-00293,hi,translate,low,"Step one, check the date; step two, check the source"
+r-00294,hi,rewrite,low,A plain reading of the rule gives the opposite result
+r-00295,hi,answer,low,The short answer is that it depends on the licence
+r-00296,hi,rewrite,medium,A plain reading of the rule gives the opposite result
+r-00297,hi,summarise,low,"Three things are going on here, and only one of them matters"
+r-00298,hi,classify,low,"Three things are going on here, and only one of them matters"
+r-00299,hi,classify,low,"Yes, though the second clause contradicts the first"
+r-00300,hi,classify,low,A plain reading of the rule gives the opposite result
+r-00301,hi,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00302,hi,translate,low,"Three things are going on here, and only one of them matters"
+r-00303,hi,classify,low,"That figure is from 2019, so treat it as out of date"
+r-00304,hi,rewrite,low,"The model said ""it is safe"", which is not what the source says"
+r-00305,hi,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00306,hi,summarise,high,"The model said ""it is safe"", which is not what the source says"
+r-00307,hi,translate,low,"Three things are going on here, and only one of them matters"
+r-00308,hi,classify,medium,The short answer is that it depends on the licence
+r-00309,hi,translate,low,A plain reading of the rule gives the opposite result
+r-00310,hi,summarise,low,The short answer is that it depends on the licence
+r-00311,hi,translate,low,A plain reading of the rule gives the opposite result
+r-00312,hi,summarise,low,I cannot help with that request
+r-00313,hi,classify,medium,"Yes, though the second clause contradicts the first"
+r-00314,hi,summarise,low,I cannot help with that request
+r-00315,hi,answer,low,I cannot help with that request
+r-00316,hi,translate,medium,The short answer is that it depends on the licence
+r-00317,hi,answer,medium,"Yes, though the second clause contradicts the first"
+r-00318,hi,answer,medium,I cannot help with that request
+r-00319,hi,summarise,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00320,hi,answer,low,"Yes, though the second clause contradicts the first"
+r-00321,hi,classify,low,"Step one, check the date; step two, check the source"
+r-00322,hi,rewrite,medium,"Yes, though the second clause contradicts the first"
+r-00323,hi,answer,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00324,hi,summarise,medium,"Three things are going on here, and only one of them matters"
+r-00325,hi,answer,high,"The model said ""it is safe"", which is not what the source says"
+r-00326,hi,rewrite,low,"Yes, though the second clause contradicts the first"
+r-00327,hi,classify,low,A plain reading of the rule gives the opposite result
+r-00328,hi,rewrite,medium,The short answer is that it depends on the licence
+r-00329,hi,classify,low,"The model said ""it is safe"", which is not what the source says"
+r-00330,hi,summarise,low,"That figure is from 2019, so treat it as out of date"
+r-00331,hi,rewrite,low,There is no evidence for that claim in the document
+r-00332,hi,answer,low,"That figure is from 2019, so treat it as out of date"
+r-00333,hi,answer,high,The short answer is that it depends on the licence
+r-00334,hi,answer,low,"That figure is from 2019, so treat it as out of date"
+r-00335,hi,answer,low,There is no evidence for that claim in the document
+r-00336,hi,summarise,low,"Three things are going on here, and only one of them matters"
+r-00337,hi,summarise,medium,"The model said ""it is safe"", which is not what the source says"
+r-00338,hi,classify,low,A plain reading of the rule gives the opposite result
+r-00339,hi,classify,low,"The model said ""it is safe"", which is not what the source says"
+r-00340,hi,rewrite,low,"That figure is from 2019, so treat it as out of date"
+r-00341,mr,rewrite,high,"Three things are going on here, and only one of them matters"
+r-00342,mr,answer,low,"The model said ""it is safe"", which is not what the source says"
+r-00343,mr,answer,high,Here is a rewrite that keeps the meaning but drops the hedging
+r-00344,mr,translate,low,A plain reading of the rule gives the opposite result
+r-00345,mr,rewrite,low,A plain reading of the rule gives the opposite result
+r-00346,mr,summarise,low,"The model said ""it is safe"", which is not what the source says"
+r-00347,mr,translate,high,"Yes, though the second clause contradicts the first"
+r-00348,mr,rewrite,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00349,mr,summarise,low,There is no evidence for that claim in the document
+r-00350,mr,summarise,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00351,mr,classify,medium,"The model said ""it is safe"", which is not what the source says"
+r-00352,mr,rewrite,low,I cannot help with that request
+r-00353,mr,classify,medium,There is no evidence for that claim in the document
+r-00354,mr,rewrite,high,Here is a rewrite that keeps the meaning but drops the hedging
+r-00355,mr,answer,low,"That figure is from 2019, so treat it as out of date"
+r-00356,mr,translate,low,"Yes, though the second clause contradicts the first"
+r-00357,mr,answer,low,"Three things are going on here, and only one of them matters"
+r-00358,mr,classify,low,I cannot help with that request
+r-00359,mr,rewrite,low,I cannot help with that request
+r-00360,mr,answer,high,"Three things are going on here, and only one of them matters"
+r-00361,mr,answer,low,A plain reading of the rule gives the opposite result
+r-00362,mr,answer,low,"Step one, check the date; step two, check the source"
+r-00363,mr,translate,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00364,mr,classify,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00365,mr,summarise,medium,"Three things are going on here, and only one of them matters"
+r-00366,mr,classify,low,The short answer is that it depends on the licence
+r-00367,mr,answer,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00368,mr,summarise,low,There is no evidence for that claim in the document
+r-00369,mr,translate,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00370,mr,answer,high,I cannot help with that request
+r-00371,mr,classify,high,"That figure is from 2019, so treat it as out of date"
+r-00372,mr,summarise,low,There is no evidence for that claim in the document
+r-00373,mr,translate,low,"Three things are going on here, and only one of them matters"
+r-00374,mr,summarise,low,"Yes, though the second clause contradicts the first"
+r-00375,mr,rewrite,low,"Three things are going on here, and only one of them matters"
+r-00376,mr,answer,low,There is no evidence for that claim in the document
+r-00377,mr,rewrite,low,"Yes, though the second clause contradicts the first"
+r-00378,mr,classify,low,I cannot help with that request
+r-00379,mr,translate,low,Here is a rewrite that keeps the meaning but drops the hedging
+r-00380,mr,rewrite,low,"The model said ""it is safe"", which is not what the source says"
+r-00381,ur,translate,medium,Here is a rewrite that keeps the meaning but drops the hedging
+r-00382,ur,classify,low,A plain reading of the rule gives the opposite result
+r-00383,ur,translate,low,"Step one, check the date; step two, check the source"
+r-00384,ur,summarise,low,A plain reading of the rule gives the opposite result
+r-00385,ur,answer,medium,"That figure is from 2019, so treat it as out of date"
+r-00386,ur,answer,medium,The short answer is that it depends on the licence
+r-00387,ur,answer,high,"Yes, though the second clause contradicts the first"
+r-00388,ur,classify,medium,The short answer is that it depends on the licence
+r-00389,ur,answer,low,A plain reading of the rule gives the opposite result
+r-00390,ur,classify,low,The short answer is that it depends on the licence
+r-00391,ur,classify,low,A plain reading of the rule gives the opposite result
+r-00392,ur,summarise,low,A plain reading of the rule gives the opposite result
+r-00393,ur,translate,low,"The model said ""it is safe"", which is not what the source says"
+r-00394,ur,rewrite,low,The short answer is that it depends on the licence
+r-00395,ur,summarise,high,I cannot help with that request
+r-00396,bho,classify,low,There is no evidence for that claim in the document
+r-00397,bho,translate,low,"Step one, check the date; step two, check the source"
+r-00398,bho,rewrite,low,"Yes, though the second clause contradicts the first"
+r-00399,bho,answer,low,"Step one, check the date; step two, check the source"
+r-00400,bho,rewrite,low,Here is a rewrite that keeps the meaning but drops the hedging
