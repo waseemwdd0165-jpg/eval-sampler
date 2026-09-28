@@ -1,5 +1,7 @@
 # eval-sampler
 
+[![build and test](https://github.com/waseemwdd0165-jpg/eval-sampler/actions/workflows/ci.yml/badge.svg)](https://github.com/waseemwdd0165-jpg/eval-sampler/actions/workflows/ci.yml)
+
 Reproducible stratified sampling for evaluation queues, in Java. No build tool,
 no dependencies: a JDK is the whole toolchain.
 
@@ -86,7 +88,12 @@ on one stratum.
 sh build.sh          # or build.cmd on Windows
 ```
 
-compiles and runs them. **28 tests, all passed** on OpenJDK 11.
+compiles and runs them. **28 tests, all passing**, on JDK 11, 17 and 21 —
+GitHub Actions runs all three on every push, and also draws a sample of 60 and
+a sample of 120 from the same seed and fails the build unless every row of the
+first is in the second. The nesting property is the reason this project exists,
+so it is checked against the files the tool actually writes, not only in a unit
+test.
 
 They cover the allocation arithmetic (including a sweep of 1,800 combinations of
 size and minimum, checking every one sums correctly and over-draws nothing), the
