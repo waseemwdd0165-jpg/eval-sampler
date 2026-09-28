@@ -1,0 +1,55 @@
+name: build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        java: ['11', '17', '21']
+
+    name: JDK ${{ matrix.java }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java }}
+
+      # build.sh compiles everything and runs the tests. It exits non-zero on a
+      # failure, which is all a CI job needs.
+      - name: Compile and run the tests
+        run: sh build.sh
+
+      # The README quotes this table. Run it so the quote cannot drift.
+      - name: Draw a sample, and draw a bigger one
+        run: |
+          java -cp out com.waseemansari.evalsampler.Main sample/responses.csv \
+            --size 60 --seed queue-2026-07 --min 3 --out first.csv
+          java -cp out com.waseemansari.evalsampler.Main sample/responses.csv \
+            --size 120 --seed queue-2026-07 --min 3 --out second.csv
+
+      # The nesting property is the whole point of the project, so check it
+      # against the files the tool actually wrote, not just in a unit test.
+      - name: The bigger sample contains the smaller one
+        run: |
+          tail -n +2 first.csv  | cut -d, -f1 | sort > a.ids
+          tail -n +2 second.csv | cut -d, -f1 | sort > b.ids
+          echo "first draw  $(wc -l < a.ids) rows"
+          echo "second draw $(wc -l < b.ids) rows"
+          missing=$(comm -23 a.ids b.ids | wc -l)
+          if [ "$missing" -ne 0 ]; then
+            echo "::error::$missing row(s) from the first draw are missing from the second"
+            comm -23 a.ids b.ids
+            exit 1
+          fi
+          echo "every row of the first draw survived into the second"
